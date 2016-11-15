@@ -41,3 +41,6 @@ freeMode : true
 在props中可以配置所有的配置属性，props名称为swiperOption。
 配置api参见swiperapi http://www.swiper.com.cn/api/index.html</br>
 
+##注意：
+组件依赖swiper-tu,请下载swiper模块，或者下载swiper.js文件，然后加载。
+
