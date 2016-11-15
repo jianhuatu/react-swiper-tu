@@ -3,7 +3,7 @@ import ReactDom from "../../node_modules/react-dom";
 import SwiperComponent from "../../index";
 
 var swiperOption = {
-	direction: "vertical"
+	direction: "horizontal"
 }
 
 ReactDom.render(
