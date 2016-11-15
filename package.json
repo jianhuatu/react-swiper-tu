@@ -1,6 +1,6 @@
 {
   "name": "react-swiper-tu",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react swiper包，很简单的组件，用于把swiper作为组件集成到react中。",
   "Keywords": [
     "react",
@@ -8,7 +8,7 @@
   ],
   "Homepage": "www.idangero.us",
   "Bugs": {
-    "url": "https://github.com/jianhuatu/react-swipea-tu/issues",
+    "url": "https://github.com/jianhuatu/react-swiper-tu/issues",
     "email": "tujianhua123@yeah.net"
   },
   "author": {
@@ -18,7 +18,7 @@
   },
   "Repository": {
     "type": "git",
-    "url": "https://github.com/jianhuatu/react-swipea-tu.git"
+    "url": "https://github.com/jianhuatu/react-swiper-tu.git"
   },
   "main": "index.js",
   "scripts": {
