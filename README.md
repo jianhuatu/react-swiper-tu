@@ -6,8 +6,8 @@ swiper中文网站 ： http://www.swiper.com.cn/ </br>
 swiper中文文档 ： http://www.swiper.com.cn/api/index.html</br>
 
 ```
-import React from "../../node_modules/react";
-import ReactDom from "../../node_modules/react-dom";
+import React from "react";
+import ReactDom from "react-dom";
 import SwiperComponent from "react-swiper-tu";
 
 var swiperOption = {
