@@ -1,6 +1,6 @@
 {
   "name": "react-swiper-tu",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "react swiper包，很简单的组件，用于把swiper作为组件集成到react中。",
   "Keywords": [
     "react",
