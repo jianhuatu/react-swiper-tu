@@ -42,5 +42,6 @@ freeMode : true
 配置api参见swiperapi http://www.swiper.com.cn/api/index.html</br>
 
 ##注意：
-组件依赖swiper-tu,请下载swiper模块，或者下载swiper.js文件，然后加载。
+组件依赖swiper-tu,请下载swiper模块，或者下载swiper.js文件，然后加载。</br>
+css样式依赖css目录下的css文件，请在页面中加载。
 
