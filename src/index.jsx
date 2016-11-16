@@ -232,7 +232,7 @@ class SwiperComponent extends Component{
 		let slider = new Array();
 		var children = this.props.children.length ? this.props.children : [this.props.children] ;
 		for(var i=0,ilen=children.length;i<ilen;i++){
-			slider.push(<div key={i} className="swiper-slide">{children[i]}</div>);
+			slider.push(<div key={i} className={this.props.swiperOption.slideClass ? this.props.swiperOption.slideClass : SwiperComponent.swiperOption.slideClass}>{children[i]}</div>);
 		}
 		return slider;
 	}
@@ -242,10 +242,9 @@ class SwiperComponent extends Component{
 		const swiperSlide = this.createSwiperSlider();
 		const prevButton = this.createPrevButton();
 		const nextButton = this.createNextButton();
-
 		return (
 			<div ref="swiper" className="swiper-container">
-				<div className="swiper-wrapper">
+				<div className={this.props.swiperOption.wrapperClass ? this.props.swiperOption.wrapperClass : SwiperComponent.swiperOption.wrapperClass}>
 					{swiperSlide}
 				</div>
 				{scrollbar}
