@@ -213,7 +213,7 @@ class SwiperComponent extends Component{
 		this.swiper = new swiper(this.refs.swiper,this.props.swiperOption);
 	}
 	componentWillUnmount (){
-	    this.swiper.kill();
+	    if(this.swiper)this.swiper.destroy();
 	    this.swiper = void 0;
 	}
 	createScrollbar (){
