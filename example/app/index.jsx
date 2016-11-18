@@ -3,7 +3,9 @@ import ReactDom from "../../node_modules/react-dom";
 import SwiperComponent from "../../index";
 
 var swiperOption = {
-	direction: "horizontal"
+	direction : "vertical",
+	freeMode : true,
+	slidesPerView: "auto"
 }
 
 ReactDom.render(
@@ -27,6 +29,41 @@ ReactDom.render(
 			<div>6</div>
 			<div>7</div>
 			<div>8</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
+			<div>9</div>
 			<div>9</div>
 		</div>
 	</SwiperComponent>),
